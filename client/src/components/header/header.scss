@@ -1,27 +1,33 @@
 .navbar {
-    height: 100px;
+    height: 120px;
+    background-color: transparent;
 }
 
 .wrapper {
-    max-width: 1366;
-    margin: auto;
     display: flex;
+    max-width: 1366px;
+    margin: auto;    
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: transparent;
     height: 100%;
-}
 
-.span {
+
+span {
+   
     font-weight: bold;
+    font-size: 30px;
 }
 
-.social {
+.social {    
     display: flex;
     gap: 20px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    margin-left: 300px;
+    width: 100px;
+    height: 100px;
+}
 }

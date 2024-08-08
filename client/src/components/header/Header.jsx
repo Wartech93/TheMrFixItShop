@@ -1,6 +1,6 @@
 import "./header.scss";
 import { motion } from "framer-motion";
-import Sidebar from "../Sidebar/Sidebar";
+import Sidebar from "./Sidebar/Sidebar";
 
 const Header = () => {
   return (
